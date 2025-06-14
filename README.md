@@ -16,7 +16,7 @@ A modern, flexible, and production-ready GDPR Cookie Consent Manager package for
 
 1. Require the package:
    ```bash
-   composer require vendor/gdpr-cookie-consent-manager
+   composer require pola5h/gdpr-cookie-consent-manager
    ```
 2. Publish assets & config:
    ```bash
