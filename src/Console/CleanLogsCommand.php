@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\GdprCookieConsentManager\Console;
+namespace Pola5h\GdprCookieConsentManager\Console;
 
 use Illuminate\Console\Command;
-use Vendor\GdprCookieConsentManager\Models\ConsentLog;
+use Pola5h\GdprCookieConsentManager\Models\ConsentLog;
 
 class CleanLogsCommand extends Command
 {

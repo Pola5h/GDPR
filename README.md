@@ -20,7 +20,7 @@ A modern, flexible, and production-ready GDPR Cookie Consent Manager package for
    ```
 2. Publish assets & config:
    ```bash
-   php artisan vendor:publish --provider="Vendor\GdprCookieConsentManager\Providers\GdprCookieServiceProvider"
+   php artisan vendor:publish --provider="Pola5h\\GdprCookieConsentManager\\Providers\\GdprCookieServiceProvider"
    ```
 3. Run migrations:
    ```bash
@@ -44,6 +44,10 @@ A modern, flexible, and production-ready GDPR Cookie Consent Manager package for
 - Ensure you have run migrations and published assets.
 - Check config and language files for missing keys.
 - For help, contact [kzaman3055@gmail.com](mailto:kzaman3055@gmail.com).
+
+## Support & Donations
+
+If you find this package useful, please consider supporting its development! See [DONATE.md](./DONATE.md) for Binance Pay and crypto donation options.
 
 ## License
 

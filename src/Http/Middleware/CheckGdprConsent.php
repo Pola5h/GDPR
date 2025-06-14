@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GdprCookieConsentManager\Http\Middleware;
+namespace Pola5h\GdprCookieConsentManager\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GdprCookieConsentManager\Console;
+namespace Pola5h\GdprCookieConsentManager\Console;
 
 use Illuminate\Console\Command;
 

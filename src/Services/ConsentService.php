@@ -1,8 +1,8 @@
 <?php
 
-namespace Vendor\GdprCookieConsentManager\Services;
+namespace Pola5h\GdprCookieConsentManager\Services;
 
-use Vendor\GdprCookieConsentManager\Models\ConsentLog;
+use Pola5h\GdprCookieConsentManager\Models\ConsentLog;
 
 class ConsentService
 {

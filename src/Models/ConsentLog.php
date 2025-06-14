@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GdprCookieConsentManager\Models;
+namespace Pola5h\GdprCookieConsentManager\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

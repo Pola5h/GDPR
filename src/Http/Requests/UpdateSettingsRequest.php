@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GdprCookieConsentManager\Http\Requests;
+namespace Pola5h\GdprCookieConsentManager\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

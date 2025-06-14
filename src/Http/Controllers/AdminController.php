@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\GdprCookieConsentManager\Http\Controllers;
+namespace Pola5h\GdprCookieConsentManager\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Vendor\GdprCookieConsentManager\Http\Requests\UpdateSettingsRequest;
+use Pola5h\GdprCookieConsentManager\Http\Requests\UpdateSettingsRequest;
 
 /**
  * Controller for GDPR Cookie Consent admin panel.
@@ -25,7 +25,7 @@ class AdminController extends Controller
     /**
      * Update settings with validation.
      *
-     * @param  \Vendor\GdprCookieConsentManager\Http\Requests\UpdateSettingsRequest  $request
+     * @param  \Pola5h\GdprCookieConsentManager\Http\Requests\UpdateSettingsRequest  $request
      * @return \Illuminate\Http\RedirectResponse
      */
     public function update(UpdateSettingsRequest $request)
