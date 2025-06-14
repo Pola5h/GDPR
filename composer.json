@@ -1,0 +1,28 @@
+{
+  "name": "pola5h/gdpr-cookie-consent-manager",
+  "description": "A modern, flexible, and production-ready GDPR Cookie Consent Manager package for Laravel 12.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pola5h",
+      "email": "kzaman3055@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pola5h\\GdprCookieConsentManager\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pola5h\\GdprCookieConsentManager\\Providers\\GdprCookieServiceProvider"
+      ]
+    }
+  }
+}
