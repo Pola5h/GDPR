@@ -7,4 +7,14 @@
         <button>{{ __("gdprcookie::messages.customize") }}</button>
     @endif
     <!-- Add category toggles dynamically from config('gdprcookie.cookie_categories') if needed -->
+    <!-- Example usage for auto-blocking: -->
+    <!--
+    <script type="text/plain" data-cookie-category="analytics" src="https://www.googletagmanager.com/gtag/js?id=UA-XXXX"></script>
+    <script type="text/plain" data-cookie-category="analytics">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-XXXX');
+    </script>
+    -->
 </div>
